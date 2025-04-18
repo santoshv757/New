@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShreeDev0702 ↔ Unicode Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://your-github-username.github.io/shreedev-converter/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-exchange-alt"></i> ShreeDev0702 ↔ Unicode Converter</h1>
+        
+        <div class="converter-box">
+            <div class="tab-container">
+                <button class="tab-btn active" data-tab="shreedev-to-unicode">ShreeDev → Unicode</button>
+                <button class="tab-btn" data-tab="unicode-to-shreedev">Unicode → ShreeDev</button>
+            </div>
+            
+            <div class="tab-content active" id="shreedev-to-unicode">
+                <textarea id="shreedevInput" placeholder="ShreeDev0702 मजकूर येथे टाइप करा..."></textarea>
+                <div class="button-group">
+                    <button id="convertToUnicodeBtn" class="convert-btn">
+                        <i class="fas fa-arrow-right"></i> Unicode मध्ये रूपांतरित करा
+                    </button>
+                    <button id="clearShreedevBtn" class="clear-btn">
+                        <i class="fas fa-trash"></i> साफ करा
+                    </button>
+                </div>
+                <textarea id="unicodeOutput" readonly placeholder="Unicode रूपांतरित मजकूर..."></textarea>
+                <button id="copyUnicodeBtn" class="copy-btn">
+                    <i class="fas fa-copy"></i> कॉपी करा
+                </button>
+            </div>
+            
+            <div class="tab-content" id="unicode-to-shreedev">
+                <textarea id="unicodeInput" placeholder="Unicode मराठी मजकूर येथे टाइप करा..."></textarea>
+                <div class="button-group">
+                    <button id="convertToShreedevBtn" class="convert-btn">
+                        <i class="fas fa-arrow-right"></i> ShreeDev मध्ये रूपांतरित करा
+                    </button>
+                    <button id="clearUnicodeBtn" class="clear-btn">
+                        <i class="fas fa-trash"></i> साफ करा
+                    </button>
+                </div>
+                <textarea id="shreedevOutput" readonly placeholder="ShreeDev0702 रूपांतरित मजकूर..."></textarea>
+                <button id="copyShreedevBtn" class="copy-btn">
+                    <i class="fas fa-copy"></i> कॉपी करा
+                </button>
+            </div>
+        </div>
+        
+        <div class="info-box">
+            <h3><i class="fas fa-info-circle"></i> माहिती:</h3>
+            <ul>
+                <li>ह्या साधनामुळे तुम्ही ShreeDev0702 फॉन्टमधील मजकूर Unicode मध्ये आणि Unicode मजकूर ShreeDev0702 मध्ये रूपांतरित करू शकता.</li>
+                <li>रूपांतरणासाठी संबंधित बॉक्समध्ये मजकूर टाइप करा किंवा पेस्ट करा आणि रूपांतरण बटण दाबा.</li>
+                <li>रूपांतरित मजकूर कॉपी करण्यासाठी कॉपी बटण वापरा.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://your-github-username.github.io/shreedev-converter/converter.js"></script>
+</body>
+</html>
