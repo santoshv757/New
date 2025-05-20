@@ -1,14 +1,3 @@
-﻿<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<body bgcolor="yellow"> <!--"00FF00" for green -->
-<title>Shreedev0702 <=> यूनिकोड परिवर्तित्र</title>
-
-<B><Font color = darkblue><CENTER> Shreedev0702 <==> यूनिकोड फ़ोण्ट परिवर्तित्र (27-02-2010 14:33) </font></B><br>
-<Font color = blue>Last update: 20-02-2015</font>
-
-<script type="text/javascript">
-
 function convert_to_unicode()
 {
 
@@ -590,31 +579,3 @@ modified_substring = modified_substring.substr ( 0 , modified_substring.length -
 
   } // end of convert_to_ShreeDev0702 function
 
-
-</script>
-</head>
-
-
-<body>
-<form name="form1">
-<b>Shreedev0702</b> font text-box<br/>
-<HTML><BODY bgColor='yellow'><CENTER>
-
-<textarea name="TextToConvert" id="legacy_text" cols="92" rows="6"></textarea> <br>
-
-<div align="middle">
-<CENTER><input  type="button" name="converter" id="converter" value=" Convert to Unicode >> " onClick="convert_to_unicode();" accesskey="c" title="शॉर्टकट alt+c"> 
-</div>  <br>
-
-<b><CENTER>Unicode</b> text-box <br/>
-<textarea name="ConvertedText" id="unicode_text" cols="92" rows="6"></textarea>
-<br />
-
-<div align="middle">
-<input  type="button" id="converter" name="converter" value=" Convert to Shreedev0702 >> " onClick="convert_to_Shreedev0702();" accesskey="c" 
-</div>
-
-</form>
-</body>
-
-</html>
